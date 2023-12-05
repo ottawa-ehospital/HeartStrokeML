@@ -4,7 +4,7 @@ from sklearn.preprocessing import LabelEncoder
 
 loaded_model = joblib.load('MLModels/stroke_prediction_model.pkl')
 
-svm_model = joblib.load("MLModels\svm.pkl")
+svm_model = joblib.load("MLModels/svm.pkl")
 
 def predict_stroke(
     gender, age, hypertension, heart_disease, married, work_type,
